@@ -22,9 +22,9 @@ I'm a passionate software developer with a love for blockchain technology and ha
 
 ## 📈 GitHub Stats
 
-![adityajha2005's Stats](https://github-readme-stats.vercel.app/api?username=adityajha2005&theme=vue-dark&show_icons=true&hide_border=true&count_private=true)
-![adityajha2005's Streak](https://github-readme-streak-stats.herokuapp.com/?user=adityajha2005&theme=vue-dark&hide_border=true)
-![adityajha2005's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adityajha2005&theme=vue-dark&show_icons=true&hide_border=true&layout=compact)
+![adityajha2005's Stats](https://github-readme-stats.vercel.app/api?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&count_private=true)
+![adityajha2005's Streak](https://github-readme-streak-stats.herokuapp.com/?user=adityajha2005&theme=neon&hide_border=true)
+![adityajha2005's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&layout=compact)
 
 ## 🚀 Projects
 
