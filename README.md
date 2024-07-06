@@ -17,6 +17,7 @@ I'm a passionate software developer with a love for blockchain technology and ha
   ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
   ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white) 
   ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+  ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
 - **Frameworks and Libraries**: 
   ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) 
@@ -37,14 +38,16 @@ I'm a passionate software developer with a love for blockchain technology and ha
 - **Other**: 
   ![Machine Learning](https://img.shields.io/badge/Machine_Learning-2C3E50?style=for-the-badge&logo=machine-learning&logoColor=white) 
   ![Neural Networks](https://img.shields.io/badge/Neural_Networks-2C3E50?style=for-the-badge&logo=neural-networks&logoColor=white)
-    ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-
+  ![Jupyter Notebook](https://img.shields.io/badge/Jupyter_Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
 ## 📈 GitHub Stats
 
 ![adityajha2005's Stats](https://github-readme-stats.vercel.app/api?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&count_private=true)
 ![adityajha2005's Streak](https://github-readme-streak-stats.herokuapp.com/?user=adityajha2005&theme=neon&hide_border=true)
 ![adityajha2005's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&layout=compact)
+![Profile Views](https://komarev.com/ghpvc/?username=adityajha2005&color=brightgreen)
+
+
 
 ## 🚀 Projects
 
