@@ -1,73 +1,71 @@
-# Hi there, I'm Aditya 👋
+# jwt-auth-example
 
-## About Me
+A simple JWT authentication middleware example for Express.js applications.
 
-I'm a passionate **Full Stack & Blockchain Developer** with a strong interest in **decentralized applications**, **machine learning**, and **hackathons**.  
-I’ve built scalable web apps, deployed smart contracts, and consistently excelled in hackathons, including winning positions in **5+ Web3 hackathons** and receiving a **$2,700 Solana grant**.  
+## Installation
 
-Currently, I'm working on **cutting-edge blockchain projects** at startups, while actively contributing to open source and building innovative tools.
+```bash
+npm install
+```
 
-- 🔭 Currently working on **Next.js**, **React.js**, and **Blockchain DApps**.  
-- 🌱 Learning **Auditing** & advanced **Rust for smart contracts**.  
-- 👯 Looking to collaborate on **open-source blockchain & AI projects**.  
-- 💬 Ask me about **Web3**, **Full-Stack Development**, or **Machine Learning**.  
-- 📫 Reach me at: **2005akjha@gmail.com**
+## Usage
 
----
+The `auth.js` module provides three functions for JWT-based authentication:
 
-## 🛠️ Skills
+### Authentication Middleware
 
-- **Languages**: C, C++, Python, JavaScript, TypeScript, SQL, Solidity, Rust  
-- **Frameworks & Libraries**: React, Next.js, Node.js, Nest.js, Express, Angular, Tailwind, TensorFlow  
-- **Databases**: PostgreSQL, MongoDB, Firebase  
-- **Blockchain**: Solana, Ethereum, Aptos, Foundry, Anchor, Solidity, IPFS  
-- **Other Tools**: Docker, Git/GitHub, Jupyter Notebook, VS Code  
-- **Domains**: Web Development, Blockchain Development, Algorithm Development  
+```javascript
+const { authenticate, generateToken, validateToken } = require("./auth");
 
----
+// Protect routes with authentication
+app.get("/protected", authenticate, (req, res) => {
+  res.json({ user: req.user });
+});
 
-## 🚀 Featured Projects
+// Generate tokens for users
+const token = generateToken({ id: 123, email: "user@example.com" }, { expiresIn: "24h" });
 
-### [SnapChain](https://github.com/adityajha2005/snapchain) | [Live Demo](https://snapchain.vercel.app/)  
-- **AI-powered drag-and-drop platform** for building Rust-based smart contracts.  
-- Features include AI-assisted contract generation, real-time updates, reusable templates, and an interactive dashboard.  
-- **Tech Stack**: Next.js, TypeScript, MongoDB, Rust, Google Gemini API.  
+// Validate tokens without throwing errors
+const decoded = validateToken(token);
+if (decoded) {
+  console.log("Valid token:", decoded);
+}
+```
 
-### [MemeFI](https://github.com/adityajha2005/memefi-platform) | [Live Demo](https://memefi-platform.vercel.app/)  
-- A **gamified meme staking platform**: stake memes, earn rewards, and climb leaderboards.  
-- Implemented wallet abstraction for seamless UX.  
-- **Tech Stack**: Next.js, Solidity (BNB Chain), Node.js, MongoDB, IPFS.  
+### Security Features
 
-### [NexusHub](https://github.com/adityajha2005/nexushub)  
-- Blockchain-powered **CO2 tracking system** + **mentoring platform** connecting professionals with students.  
-- Used React, Node.js, and Solidity on XDC Blockchain.  
-- **Hackathon-winning project**.
+1. **Robust Validation**: Validates JWT_SECRET exists, proper Bearer format, and token structure
+2. **Algorithm Protection**: Explicitly specifies HS256 to prevent algorithm confusion attacks
+3. **Detailed Error Messages**: Provides specific error responses (expired, invalid, not active)
+4. **JSON Responses**: Returns structured JSON errors instead of plain text
+5. **Environment Checks**: Validates configuration before processing requests
+6. **Token Generation**: Helper function with secure defaults (1h expiration, issuer/audience claims)
+7. **Safe Validation**: Non-throwing validation function for optional authentication scenarios
 
----
+### Environment Variables
 
-## 🏆 Achievements
+- `JWT_SECRET` - Secret key used to verify JWT tokens
+- `PORT` - Server port (default: 3000)
 
-- 🥇 **5X Web3 Hackathon Winner** – Winner or runner-up in multiple blockchain hackathons.  
-- 💰 **Solana Grant ($2,700)** – Awarded for a blockchain project, among top 126 in India.  
+### Running the Example Server
 
----
+```bash
+# Set your JWT secret
+export JWT_SECRET=your-secret-key
 
-## 📈 GitHub Stats
+# Start the server
+npm start
+```
 
-![adityajha2005's Stats](https://github-readme-stats.vercel.app/api?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&count_private=true)
-![adityajha2005's Streak](https://github-readme-streak-stats.herokuapp.com/?user=adityajha2005&theme=neon&hide_border=true)
-![adityajha2005's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&layout=compact)
-![Profile Views](https://komarev.com/ghpvc/?username=adityajha2005&color=brightgreen)
+## API Endpoints
 
----
+- `GET /public` - Public endpoint (no authentication required)
+- `GET /protected` - Protected endpoint (requires valid JWT token)
 
-## 📫 Connect with Me
+## Testing Authentication
 
-- [🌐 Portfolio](https://www.adityajha.tech/)  
-- [💼 LinkedIn](https://www.linkedin.com/in/aditya-jha-654800280/)  
-- [🐦 Twitter](https://twitter.com/adxtya_jha)  
-- [💻 GitHub](https://github.com/adityajha2005)  
+To test the protected endpoint, include the JWT token in the Authorization header:
 
----
-
-✨ *Always building, always learning. Let’s connect & create something impactful together!*  
+```bash
+curl -H "Authorization: Bearer your-jwt-token" http://localhost:3000/protected
+```
