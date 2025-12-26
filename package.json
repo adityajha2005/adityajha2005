@@ -1,0 +1,18 @@
+{
+  "name": "jwt-auth-example",
+  "version": "1.0.0",
+  "description": "JWT authentication example",
+  "main": "auth.js",
+  "dependencies": {
+    "express": "^4.18.0",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["jwt", "authentication", "express"],
+  "author": "",
+  "license": "ISC"
+}
