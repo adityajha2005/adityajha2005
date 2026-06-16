@@ -1,5 +1,9 @@
 # Hi there, I'm Aditya 👋
 
+## PumpFun
+thanks everyone for fundraising for my mini game which i have just started to build, really means a lot :D
+CA : CKYdee6nxnAR49L6jaEnjHCasw7L43kUfegnEnVnpump
+
 ## About Me
 
 I'm a passionate **Full Stack & Blockchain Developer** with a strong interest in **decentralized applications**, **machine learning**, and **hackathons**.  
