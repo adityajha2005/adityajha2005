@@ -1,73 +1,58 @@
-# Hi there, I'm Aditya 👋
+# Hey, I'm Aditya 👋
 
-## About Me
+I'm a full-stack engineer from Delhi. I build AI agent tooling, developer tools and Web3 products, and I contribute to open source a lot.
 
-I'm a passionate **Full Stack & Blockchain Developer** with a strong interest in **decentralized applications**, **machine learning**, and **hackathons**.  
-I’ve built scalable web apps, deployed smart contracts, and consistently excelled in hackathons, including winning positions in **5+ Web3 hackathons** and receiving a **$2,700 Solana grant**.  
-
-Currently, I'm working on **cutting-edge blockchain projects** at startups, while actively contributing to open source and building innovative tools.
-
-- 🔭 Currently working on **Next.js**, **React.js**, and **Blockchain DApps**.  
-- 🌱 Learning **Auditing** & advanced **Rust for smart contracts**.  
-- 👯 Looking to collaborate on **open-source blockchain & AI projects**.  
-- 💬 Ask me about **Web3**, **Full-Stack Development**, or **Machine Learning**.  
-- 📫 Reach me at: **2005akjha@gmail.com**
+[![X](https://img.shields.io/badge/X-@adxtyahq-000?logo=x&logoColor=white)](https://x.com/adxtyahq)
+[![Portfolio](https://img.shields.io/badge/Portfolio-adityajha.site-0a66c2?logo=googlechrome&logoColor=white)](https://www.adityajha.site/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aditya_Jha-0a66c2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aditya-jha-654800280/)
+[![Email](https://img.shields.io/badge/Email-2005akjha@gmail.com-ea4335?logo=gmail&logoColor=white)](mailto:2005akjha@gmail.com)
 
 ---
 
-## 🛠️ Skills
+## 🚀 What I've built
 
-- **Languages**: C, C++, Python, JavaScript, TypeScript, SQL, Solidity, Rust  
-- **Frameworks & Libraries**: React, Next.js, Node.js, Nest.js, Express, Angular, Tailwind, TensorFlow  
-- **Databases**: PostgreSQL, MongoDB, Firebase  
-- **Blockchain**: Solana, Ethereum, Aptos, Foundry, Anchor, Solidity, IPFS  
-- **Other Tools**: Docker, Git/GitHub, Jupyter Notebook, VS Code  
-- **Domains**: Web Development, Blockchain Development, Algorithm Development  
-
----
-
-## 🚀 Featured Projects
-
-### [SnapChain](https://github.com/adityajha2005/snapchain) | [Live Demo](https://snapchain.vercel.app/)  
-- **AI-powered drag-and-drop platform** for building Rust-based smart contracts.  
-- Features include AI-assisted contract generation, real-time updates, reusable templates, and an interactive dashboard.  
-- **Tech Stack**: Next.js, TypeScript, MongoDB, Rust, Google Gemini API.  
-
-### [MemeFI](https://github.com/adityajha2005/memefi-platform) | [Live Demo](https://memefi-platform.vercel.app/)  
-- A **gamified meme staking platform**: stake memes, earn rewards, and climb leaderboards.  
-- Implemented wallet abstraction for seamless UX.  
-- **Tech Stack**: Next.js, Solidity (BNB Chain), Node.js, MongoDB, IPFS.  
-
-### [NexusHub](https://github.com/adityajha2005/nexushub)  
-- Blockchain-powered **CO2 tracking system** + **mentoring platform** connecting professionals with students.  
-- Used React, Node.js, and Solidity on XDC Blockchain.  
-- **Hackathon-winning project**.
+| Project | What it is |
+|---|---|
+| 🆕 **Latest:** **[decisionkit](https://github.com/adityajha2005/decisionkit)** · [npm](https://www.npmjs.com/package/@adxtya21/decisionkit) | Fast, cheap decisions for coding agents, scripts and CI. Ask a yes/no, pick-one, score or rank question and get **probabilities** back. Works as a CLI, an MCP server and a Claude Code plugin, on the OpenAI Decisions API, Jev (TypeSafe AI) or Claude. |
+| **[yc-outreach](https://github.com/adityajha2005/yc-outreach)** ⭐ 160+ | Pick a YC batch, get the founders and their likely emails, and write personalised cold emails from one template. Free, no API keys, stdlib Python plus one HTML file. |
+| **[WrapdCode](https://github.com/adityajha2005/WrapdCode)** | Run Claude Code with **any model** (Gemini, GPT, Llama and 300+ more) through a local Anthropic-compatible proxy to OpenRouter. |
+| **[solfail](https://github.com/adityajha2005/solfail)** · [npm](https://www.npmjs.com/package/solfail) | Turns Solana transaction failures into clear explanations, fixes and confidence scores. CLI, HTTP API and TypeScript library. |
+| **[postcli](https://github.com/adityajha2005/postcli)** | Send handcrafted emails from your terminal: Jinja2 templates, contacts in a CSV, sent over SMTP. |
+| **[synqpay](https://github.com/adityajha2005/synq)** · [live](https://synqpay.vercel.app/) | Web3 payments and subscriptions on Avalanche, with Solidity contracts (Foundry) and AI automation. |
+| **[flight-simulator](https://github.com/adityajha2005/flight-simulator)** · [play](https://flight-simulator-blush.vercel.app) | A 3D flight simulator you can play in the browser. |
 
 ---
 
-## 🏆 Achievements
+## 🌍 Open source
 
-- 🥇 **5X Web3 Hackathon Winner** – Winner or runner-up in multiple blockchain hackathons.  
-- 💰 **Solana Grant ($2,700)** – Awarded for a blockchain project, among top 126 in India.  
+**70 merged PRs** in other people's projects, including:
 
----
+- **[livekit/agents](https://github.com/livekit/agents/pulls?q=is%3Apr+author%3Aadityajha2005+is%3Amerged)** ⭐ 14k: fixes to the Deepgram, Google TTS, Neuphonic, Clova and SLNG integrations
+- **[Arize-ai/openinference](https://github.com/Arize-ai/openinference/pulls?q=is%3Apr+author%3Aadityajha2005+is%3Amerged)**: added support for `openai@^7`
+- **[clawvisor/clawvisor](https://github.com/clawvisor/clawvisor/pulls?q=is%3Apr+author%3Aadityajha2005+is%3Amerged)**: 16 PRs, mostly security fixes (prompt-injection sanitization, query-string injection, approval spoofing tests)
+- **[json-schema-org](https://github.com/json-schema-org)**: fixes to the website, the tour and the landscape
+- **[o2sdev/openselfservice](https://github.com/o2sdev/openselfservice/pulls?q=is%3Apr+author%3Aadityajha2005+is%3Amerged)**: moved the UI to the React 19 ref-as-prop pattern and wrote the deployment guides
+- **[TrueMemory](https://github.com/buildingjoshbetter/TrueMemory)**, **[superloglabs/skills](https://github.com/superloglabs/skills)**, **[ReplayAI/sudolog-system](https://github.com/ReplayAI/sudolog-system)**: fixes and architecture decision records (ADRs)
 
-## 📈 GitHub Stats
-
-![adityajha2005's Stats](https://github-readme-stats.vercel.app/api?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&count_private=true)
-![adityajha2005's Streak](https://github-readme-streak-stats.herokuapp.com/?user=adityajha2005&theme=neon&hide_border=true)
-![adityajha2005's Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adityajha2005&theme=neon&show_icons=true&hide_border=true&layout=compact)
-![Profile Views](https://komarev.com/ghpvc/?username=adityajha2005&color=brightgreen)
-
----
-
-## 📫 Connect with Me
-
-- [🌐 Portfolio](https://www.adityajha.tech/)  
-- [💼 LinkedIn](https://www.linkedin.com/in/aditya-jha-654800280/)  
-- [🐦 Twitter](https://twitter.com/adxtya_jha)  
-- [💻 GitHub](https://github.com/adityajha2005)  
+[→ All my merged PRs](https://github.com/pulls?q=is%3Apr+author%3Aadityajha2005+is%3Amerged+-user%3Aadityajha2005)
 
 ---
 
-✨ *Always building, always learning. Let’s connect & create something impactful together!*  
+## 🏆 Highlights
+
+- 🥇 Won or placed in **5+ Web3 hackathons**
+- 💰 Received a **$2,700 Solana grant** as one of the top 126 projects in India
+
+---
+
+## 🛠️ Stack
+
+**Languages:** TypeScript · JavaScript · Python · Go · Rust · Solidity · SQL
+**AI:** Claude / OpenAI APIs · MCP · agents · LiveKit
+**Web:** Next.js · React · Node.js · NestJS · Tailwind
+**Data & infra:** PostgreSQL · MongoDB · Redis · Docker · Vercel
+**Web3:** Solana · Anchor · EVM · Foundry · Avalanche
+
+---
+
+<p align="center"><a href="https://x.com/adxtyahq">Say hi on X →</a></p>
