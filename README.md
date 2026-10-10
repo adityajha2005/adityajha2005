@@ -3,8 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://x.com/adxtyahq">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=3000&pause=900&color=2CB67D&center=true&vCenter=true&width=620&lines=I+build+tools+for+AI+agents+and+developers;70+merged+PRs+in+open+source;Winner+of+10%2B+hackathons;Just+shipped%3A+decisionkit+%F0%9F%9A%80" alt="Typing intro" />
+  <a href="https://x.com/adxtyahq"
   </a>
 </p>
 
